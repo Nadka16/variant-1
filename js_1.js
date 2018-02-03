@@ -6,8 +6,8 @@ let x=3,y=7,z=9;
 if (x>y) {
     max=x;
 } else
-    max=y;
-if(z<=max) {
-    max=z;
+    min=y;
+if(z<=min) {
+    min=z;
 }
 console.log(max);
